@@ -1,0 +1,87 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+*{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.dashboard-main-content {
+    background: rgba(93, 96, 239, 0.10);
+    padding: 16px 24px;
+
+    & .header-main-dashboard {
+        padding: 0px 10px;
+    }
+
+    .top-area-table {
+        padding: 0px 16px 16px 16px;
+        border-radius: 16px;
+        background: #FFF;
+    }
+
+    .title {
+        display: flex;
+        padding-top: 16px;
+        justify-content: space-between;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    .title p {
+        color: #000;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .title h5 {
+        color: #1F93FF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+        cursor: pointer;
+        /* 114.286% */
+    }
+
+    .table-head-data {
+        display: flex;
+        padding: 0px 16px;
+        justify-content: space-between;
+        align-items: center;
+        align-self: stretch;
+
+        & h5 {
+            color: #ACAFCA;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+            /* 142.857% */
+        }
+
+        & .seeAll {
+            color: #1F93FF;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 16px;
+            cursor: pointer;
+        }
+    }
+}
+.active{
+    color: #FFFFFF !important;
+    border-radius: 4px;
+    background: #1F93FF;
+}

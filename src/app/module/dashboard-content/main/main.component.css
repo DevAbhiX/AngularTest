@@ -1,0 +1,216 @@
+.tabel-Data {
+    padding: 0px 16px;
+
+    & th {
+        color: #8B8DA1;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        padding: 0px 8px;
+        /* 85.315% */
+    }
+
+    & td {
+        padding: 4px 8px;
+
+    }
+
+    .td-Data {
+        color: #8B8DA1;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        /* line-height: 14px; */
+        /* 116.667% */
+
+    }
+
+    /* .marginLeft {
+        margin-left: 33px;
+    } */
+
+    .td-Data button {
+        display: flex;
+        width: 48px;
+        padding: 4px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        &.critical {
+            border-radius: 2px;
+            border: 1px solid #BD00FF;
+            background: linear-gradient(0deg, rgba(189, 0, 255, 0.20) 0%, rgba(189, 0, 255, 0.20) 100%), #FFF;
+            flex-shrink: 0;
+            color: #BD00FF;
+        }
+
+        &.high {
+            border-radius: 2px;
+            border: 1px solid #DC143D;
+            background: linear-gradient(0deg, rgba(220, 20, 61, 0.20) 0%, rgba(220, 20, 61, 0.20) 100%), #FFF;
+            color: #DC143D;
+        }
+    }
+
+    .divider {
+        border-bottom: 1px solid rgba(172, 175, 202, 0.50);
+        padding: 5px 0px;
+    }
+
+}
+
+.year {
+    color: #6B7076;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 12px; */
+    /* 100% */
+}
+
+.key {
+    color: #6B7076;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 142.857% */
+}
+
+.key-data {
+    display: flex;
+    padding: 8px 0px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-bottom: 1px solid rgba(172, 175, 202, 0.50);
+    padding: 5px 0px;
+    margin-left: -10px;
+}
+
+.group-data {
+    color: #4FC318;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 100% */
+}
+
+.group-data-2 {
+    color: #3D4044;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 49.141px;
+    /* 122.853% */
+}
+
+#polarchartdiv {
+    /* height: 460px;
+    overflow: hidden;
+    padding: 0px;
+    margin-top: -60px; */
+}
+
+.key-details {
+    color: #3D4044;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    width: 118px;
+    /* 116.667% */
+}
+
+.red-color {
+    color: #DC143D;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 100% */
+}
+
+.border-left {
+    border-left: 1px solid rgba(172, 175, 202, 0.50);
+}
+
+.table-head-data-assestment {
+    align-items: center;
+    align-self: stretch;
+    color: #1F93FF;
+    display: flex;
+    /* padding: 0px 32px; */
+    flex-direction: row;
+    justify-content: space-around;
+    flex: 1 0 0;
+    border-bottom: 1px solid rgba(172, 175, 202, 0.50);
+
+    &h5 {
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+        border-bottom: 1px solid #1F93FF;
+        /* 142.857% */
+    }
+
+}
+
+.bottomborder {
+    border-bottom: 1px solid #1F93FF;
+}
+
+.assestment {
+    & h5 {
+        color: #6B7076;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Roboto;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        /* 100% */
+    }
+}
+
+.btnUpdate {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    background: #1F93FF;
+    display: flex;
+    height: 27px;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+}

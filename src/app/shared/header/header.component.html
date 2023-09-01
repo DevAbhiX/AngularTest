@@ -1,0 +1,54 @@
+<div class="main-header">
+    <div class="header-text d-flex justify-content-between">
+        <div class="">
+            <p class="ms-1 text-assesment"><button class="bg-transparent border-0 d-md-none" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><i
+                        class="bi bi-list-nested"></i></button>
+                <button (click)="toggleSideBar()" style="cursor: pointer;"
+                    class="sidebarToggle d-none listToggle bg-transparent border-0">
+                    <i class="bi bi-list-nested"></i>
+                </button> {{ routingName }} <span class="ms-1" *ngIf="routingName === Assestment">/</span><span class="text-it ms-2">{{ subRouting }}</span>
+
+            </p>
+            <!-- Offcanvas For Sidebar On Mobile -->
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel" style="width: 200px;">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">TheShield</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"
+                        style="margin-top: -18px;"></button>
+                </div>
+                <app-sidebar></app-sidebar>
+            </div>
+        </div>
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 32 32" fill="none">
+                <mask id="mask0_0_797" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="26"
+                    height="26">
+                    <circle cx="16" cy="16" r="12.6586" fill="#8E2929" />
+                </mask>
+                <g mask="url(#mask0_0_797)">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M16 11.8008C18.336 11.8008 20.2297 9.90711 20.2297 7.5711C20.2297 5.23508 18.336 3.34137 16 3.34137C13.664 3.34137 11.7703 5.23508 11.7703 7.5711C11.7703 9.90711 13.664 11.8008 16 11.8008ZM16 34.9321C22.0252 34.9321 26.9097 30.0477 26.9097 24.0224C26.9097 17.9972 22.0252 13.1128 16 13.1128C9.97475 13.1128 5.09033 17.9972 5.09033 24.0224C5.09033 30.0477 9.97475 34.9321 16 34.9321Z"
+                        fill="#1F93FF" />
+                </g>
+            </svg>
+        </div>
+    </div>
+    <div class="border-divider"></div>
+    <div class="header-expert">
+        <button style="overflow-y: hidden;" (click)="openSnackBar()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                    d="M14 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V8L14 2ZM18 20H6V4H13V9H18V20ZM16 11V18.1L13.9 16L11.1 18.8L8.3 16L11.1 13.2L8.9 11H16Z"
+                    fill="white" />
+            </svg>
+            Export
+        </button>
+    </div>
+
+    <!-- <div class="dashboard-main-content">
+        <app-main></app-main>
+        <router-outlet></router-outlet>
+    </div> -->
+</div>

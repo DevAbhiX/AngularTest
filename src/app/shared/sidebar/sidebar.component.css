@@ -1,0 +1,46 @@
+.main-sidebar {
+
+    padding: 10px;
+    background: linear-gradient(0deg, #FFF 0%, #FFF 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%), #EEF7FF;
+    box-shadow: -1px 0px 0px 0px rgba(139, 141, 161, 0.10) inset;
+}
+
+.theShield {
+    color: #6B7076;
+    font-family: Roboto;
+    font-size: 19.659px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.vertical-menu {
+    display: flex;
+    padding-top: 36px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch,
+}
+
+.vertical-menu a , .dropdown-container a{
+    color: #6B7076;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    text-decoration: none;
+    padding: 16px 16px 16px 24px;
+    display: flex;
+}
+
+.dropdown-container {
+    border-bottom: 1px solid rgba(172, 175, 202, 0.50);
+}
+
+.active {
+    color: #FFFFFF !important;
+    border-radius: 4px;
+    background: #1F93FF;
+}
